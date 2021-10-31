@@ -1,0 +1,83 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQopmrjG6VLYuPvbe9AbcZud41--4DLtnhK_Q&usqp=CAU) no-repeat;
+	background-size: cover;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	font-family:'Times New Roman', Times, serif;
+}
+.container{
+	position: relative;
+	margin-top: 100px;
+	width: 450px;
+	height: auto;
+	background: #e491d9;
+	border-radius: 5px;
+}
+.label{
+	padding: 20px 130px;
+	font-size: 35px;
+	font-weight: bold;
+	color: #000000;
+	font-family: cursive;
+}
+.login_form{
+	padding: 20px 40px;
+}
+.login_form .font{
+	font-size: 18px;
+	color: #130906;
+	margin: 5px 0;
+}
+.login_form input{
+	height: 40px;
+	width: 350px;
+	padding: 0 5px;
+	font-size: 18px;
+	outline: none;
+	border: 2px solid rgb(8, 8, 8);
+}
+.login_form .font2{
+	margin-top: 30px;
+}
+.login_form button{
+	margin: 45px 0 30px 0;
+	height: 45px;
+	width: 365px;
+	font-size: 20px;
+	color: rgb(17, 17, 17);
+	outline: none;
+	cursor: pointer;
+	font-weight: bold;
+	background: #f80101;
+	border-radius: 3px;
+	border: 1px solid #0b21e7;
+	transition: .5s;
+}
+.forget{
+	color: #130906;
+	text-shadow: #181717;
+}
+.login_form button:hover{
+	background: #16dd04;
+	color: #0f0e0e;
+}
+.login_form #email_error,
+.login_form #pass_error{
+	margin-top: 5px;
+	width: 345px;
+	font-size: 18px;
+	color: #0f0e0e;
+	background: rgba(14, 13, 13, 0.1);
+	text-align: center;
+	padding: 5px 8px;
+	border-radius: 3px;
+	border: 1px solid #181717;
+	display: none;
+}
+
+
